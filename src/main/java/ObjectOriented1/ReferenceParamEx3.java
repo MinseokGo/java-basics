@@ -1,7 +1,5 @@
 package ObjectOriented1;
 
-import java.util.Arrays;
-
 public class ReferenceParamEx3 {
     static void sortArr(int[] arr) {    //3 2 1 6 5 4
         for(int i=0; i<arr.length-1; i++) {
@@ -21,11 +19,13 @@ public class ReferenceParamEx3 {
         }
         System.out.println();
     }
-    public static void main(String[] args) {
+    public void int main(String[] args) {
         int[] arr = new int[] { 3, 2, 1, 6, 5, 4 };
 
         printAll(arr);
+
         sortArr(arr);
         printAll(arr);
     }
+    str -> return str.length();
 }
