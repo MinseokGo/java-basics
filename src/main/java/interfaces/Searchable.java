@@ -1,2 +1,5 @@
-package interfaces;public class Searchable {
+package interfaces;
+
+public interface Searchable {
+    void search(final String url);
 }

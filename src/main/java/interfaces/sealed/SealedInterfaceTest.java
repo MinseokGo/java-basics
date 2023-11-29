@@ -1,19 +1,16 @@
-package interfaces.multiInterface;
+package interfaces.sealed;
 
-public class MultiInterfaceTest {
+public class SealedInterfaceTest {
     public static void main(String[] args) {
         InterfaceImpl impl = new InterfaceImpl();
 
         InterfaceA interfaceA = impl;
         interfaceA.methodA();
-        //interfaceA.methodB();
-        //interfaceA.methodC();
         System.out.println();
 
         InterfaceB interfaceB = impl;
+        interfaceB.methodA();
         interfaceB.methodB();
-        //interfaceA.methodA();
-        //interfaceA.methodC();
         System.out.println();
 
         InterfaceC interfaceC = impl;

@@ -1,2 +1,5 @@
-package interfaces.multiInterface;public interface InterfaceC {
+package interfaces.multiInterface;
+
+public interface InterfaceC extends InterfaceA, InterfaceB {
+    void methodC();
 }

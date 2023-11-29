@@ -1,2 +1,5 @@
-package car;public interface Tire {
+package car;
+
+public interface Tire {
+    void roll();
 }

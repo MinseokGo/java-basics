@@ -1,4 +1,4 @@
-package interfaces.multiInterface;
+package interfaces.sealed;
 
 public class InterfaceImpl implements InterfaceC {
     @Override

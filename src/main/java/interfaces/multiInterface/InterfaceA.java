@@ -1,2 +1,5 @@
-package interfaces.multiInterface;public interface InterfaceA {
+package interfaces.multiInterface;
+
+public interface InterfaceA {
+    void methodA();
 }
