@@ -8,4 +8,11 @@ public class GenericBox<T> {
     public boolean compare(GenericBox<T> other) {
         return content.equals(other.content);
     }
+
+    public static <A> GenericBox<A> boxing(A type) {
+        GenericBox<A> genericBox = new GenericBox<>();
+        genericBox.content = type;
+
+        return genericBox;
+    }
 }

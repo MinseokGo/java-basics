@@ -30,5 +30,9 @@ public class ObjectExample {
 
         System.out.println(genericBox1.compare(genericBox2));
         System.out.println(genericBox1.compare(genericBox3));
+
+        GenericBox<Integer> genericBox4 = GenericBox.boxing(100);
+        System.out.println(genericBox3.compare(genericBox4));
+        System.out.println("genericBox4.content = " + genericBox4.content);
     }
 }
