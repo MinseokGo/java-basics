@@ -18,5 +18,17 @@ public class ObjectExample {
         genericBox.content = 10;
         // 형변환이 필요하지 않음
         Integer number = genericBox.content;
+
+        GenericBox genericBox1 = new GenericBox();
+        genericBox1.content = "100";
+
+        GenericBox genericBox2 = new GenericBox();
+        genericBox2.content = "100";
+
+        GenericBox genericBox3 =new GenericBox();
+        genericBox3.content = 100;
+
+        System.out.println(genericBox1.compare(genericBox2));
+        System.out.println(genericBox1.compare(genericBox3));
     }
 }
