@@ -34,5 +34,8 @@ public class ObjectExample {
         GenericBox<Integer> genericBox4 = GenericBox.boxing(100);
         System.out.println(genericBox3.compare(genericBox4));
         System.out.println("genericBox4.content = " + genericBox4.content);
+
+        boolean isSameNumber = GenericBox.numberCompare(100, 100);
+        System.out.println("isSameNumber = " + isSameNumber);
     }
 }

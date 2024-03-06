@@ -15,4 +15,8 @@ public class GenericBox<T> {
 
         return genericBox;
     }
+
+    public static <B extends Number> boolean numberCompare(B b1, B b2) {
+        return b1.equals(b2);
+    }
 }
