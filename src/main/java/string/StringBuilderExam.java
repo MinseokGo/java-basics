@@ -1,5 +1,8 @@
 package string;
 
+import java.time.LocalTime;
+import java.time.format.DateTimeFormatter;
+
 public class StringBuilderExam {
     public static void main(String[] args) {
         String data = new StringBuilder()
@@ -11,5 +14,7 @@ public class StringBuilderExam {
                 .deleteCharAt(3)
                 .toString();
         System.out.println("data = " + data);
+
+        String[] strings = "ab+cd".split("(?<=\\G.{2})");
     }
 }
