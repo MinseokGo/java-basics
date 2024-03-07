@@ -1,4 +1,4 @@
-package thread;
+package thread.beep;
 
 public class Task implements Runnable {
     @Override

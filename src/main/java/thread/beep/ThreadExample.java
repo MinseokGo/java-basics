@@ -1,4 +1,4 @@
-package thread;
+package thread.beep;
 
 public class ThreadExample {
     public static void main(String[] args) {

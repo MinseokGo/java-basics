@@ -1,4 +1,4 @@
-package thread;
+package thread.beep;
 
 public class WorkerThread extends Thread {
     @Override

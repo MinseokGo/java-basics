@@ -1,4 +1,4 @@
-package thread;
+package thread.beep;
 
 import java.awt.Toolkit;
 
