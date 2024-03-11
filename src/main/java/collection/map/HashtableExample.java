@@ -29,7 +29,7 @@ public class HashtableExample {
         try {
             threadA.join();
             threadB.join();
-        } catch (Exception e) { }
+        } catch (Exception ignored) { }
 
         final int size = elements.size();
         System.out.println("size = " + size);
