@@ -10,7 +10,8 @@ public class HashtableExample {
         Thread threadA = new Thread(() -> {
             System.out.println("ThreadA 시작");
             for (int i = 1; i <= 1000; i++) {
-                elements.put(String.valueOf(i), i);
+                final String key = String.valueOf(i);
+                elements.put(key, i);
             }
             System.out.println("ThreadA 종료");
         });
