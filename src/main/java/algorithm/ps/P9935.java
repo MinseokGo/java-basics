@@ -1,4 +1,4 @@
-package algorithm;
+package algorithm.ps;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
