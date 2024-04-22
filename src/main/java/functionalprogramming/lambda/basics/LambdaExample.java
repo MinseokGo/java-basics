@@ -3,7 +3,7 @@ package functionalprogramming.lambda.basics;
 public class LambdaExample {
 
     public static void main(String[] args) {
-        active((x, y) -> {  // Calculable.calculate() 구현
+        active((x, y) -> {
             int result = x + y;
             System.out.println("result = " + result);
         });
